@@ -1,0 +1,93 @@
+.topbar{
+    background-color: silver;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    margin-top: -111px;
+    margin-right: 111px;
+    /* font-family: sans-serif; */
+    font-family: bold;
+}
+.main{
+    /* background-image: url(https://wallpapers.com/images/hd/real-estate-background-4pw2hh1ulns5g1yo.jpg); */
+    /* background-image: url(https://wallpapers.com/images/hd/real-estate-white-graphics-design-qr9394ynnogt96or.jpg); */
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/036/725/233/non_2x/ai-generated-real-estate-advertisment-background-with-copy-space-free-photo.jpg); */
+    background-image: url(ai-generated-real-estate-advertisment-background-with-copy-space-free-photo.jpg);
+    height: 555px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 11px;
+    font-family: fantasy;
+    filter: brightness(80%); 
+    /* clip-path: outset(0px); */
+}
+.main2{
+
+h3{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px;
+}  
+img{
+    filter: brightness(70%);
+    transition: ease-in-out 1s;
+}  
+img:hover{
+    filter: brightness(100%);
+}
+}
+.main3{
+
+img{
+    filter: brightness(80%);
+    transition: ease-in-out 1s;
+}  
+img:hover{
+    filter: brightness(110%);
+}    
+}
+.main4{
+
+.box{
+    height: 200px;
+    width: 222px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}    
+}
+.main4{
+
+img{
+    filter: brightness(80%);
+    transition: ease-in-out 1s;
+}  
+img:hover{
+    filter: brightness(110%);
+}  
+}
+.main5{
+    font-size: 44px;
+    margin-left: 222px;
+    margin-top: 33px;
+}
+.topup{
+
+button{
+    transition: ease-in-out 1s;
+}    
+button:hover{
+    border-radius: 100%;
+}
+}
+.aboutus{
+    width: 100%;
+    height: 555px;
+    background-color: rgb(27, 33, 47);
+    color: white;
+}

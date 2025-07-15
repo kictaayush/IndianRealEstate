@@ -1,0 +1,68 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-text-box {
+      text-align: center;
+      margin: 20px;
+    }
+    .image-text-box img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+    .image-text-box p {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-text-box">
+    <img src="https://s3-us-west-2.amazonaws.com/fdn-images-2/img/products/best_home_furnishings/color/emeline_c9-b6.jpg" alt="Descriptive Image">
+    <p>This is the description or title below the image.</p>
+  </div>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scroll to Top Example</title>
+  <style>
+    #topButton {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="height: 1500px; padding: 20px;">
+    <h1>Scroll Down</h1>
+    <p>Scroll the page and click the button to go back to the top.</p>
+  </div>
+
+  <button id="topButton" onclick="scrollToTop()">Top</button>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+  </script>
+
+</body>
+</html>
